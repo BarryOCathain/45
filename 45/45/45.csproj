@@ -46,19 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DealPatterns\Singles.cs" />
+    <Compile Include="DealPatterns\ThreesAndTwos.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inerfaces\ICardPrecedence.cs" />
+    <Compile Include="Inerfaces\IDealPattern.cs" />
     <Compile Include="Inerfaces\IDeck.cs" />
+    <Compile Include="Inerfaces\IGame.cs" />
+    <Compile Include="Inerfaces\IPlayer.cs" />
+    <Compile Include="Inerfaces\IPlayerRound.cs" />
+    <Compile Include="Inerfaces\IRound.cs" />
     <Compile Include="Model\Card.cs" />
     <Compile Include="Model\Deck.cs" />
     <Compile Include="Model\Enums.cs" />
+    <Compile Include="Games\FortyFIveGame.cs" />
     <Compile Include="Model\HandCard.cs" />
-    <Compile Include="Inerfaces\ICard.cs" />
-    <Compile Include="Model\Player.cs" />
+    <Compile Include="Model\PlayerRound.cs" />
+    <Compile Include="Model\Round.cs" />
+    <Compile Include="Players\AIPlayer.cs" />
+    <Compile Include="Players\Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
