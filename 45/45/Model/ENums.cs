@@ -8,12 +8,13 @@ namespace _45.Model
 {
     class Enums
     {
+        // 0 = Red, 1 = Black
         public enum Suit
         {
-            Clubs,
-            Diamonds,
-            Hearts,
-            Spades
+            Clubs = 1,
+            Diamonds = 0,
+            Hearts = 1,
+            Spades = 0
         }
 
         public enum CardValue

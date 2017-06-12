@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using _45.Model;
 
 namespace _45.Inerfaces
 {
-    public interface IPlayer
+    interface IPlayer
     {
+        HandCard[] Cards { get; set; }
+
+        void TakeCard(Card card);
+
+        int GetNumberOfCardsInHand();
+
+        void PlayCard(HandCard card);
+
+        Card[] CardToBePlayedIsSelected();
     }
 }

@@ -1,8 +1,9 @@
 ﻿using _45.Inerfaces;
+using _45.Model;
 using System;
 using System.Collections.Generic;
 
-namespace _45.Model
+namespace _45.Players
 {
     class Deck : IDeck
     {
